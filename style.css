@@ -617,7 +617,7 @@ html{scroll-behavior: smooth;
 #side2 p{
     margin-top: 10px;
 }
-@media screen and (max-width:991px){
+@media screen and (max-width:900px){
     .input2 input{
         width: 250px;
     }
@@ -628,6 +628,13 @@ html{scroll-behavior: smooth;
     }
     #side2{
         height: 60vh;
+    }
+}@media screen and (max-width:365px){
+    .input2 input{
+        width: 130px;
+    }
+    #side2{
+        height: 30vh;
     }
 }
 
